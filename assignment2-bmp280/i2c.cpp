@@ -58,8 +58,8 @@
  */
 void i2c_master_init(void)
 {
-  // Set SDA and SCL pins output
-  DDRC |= (1<<DDC4) | (1<<DDC5);
+  // TWI needs released (input) pins; it drives only the LOW level itself.
+  DDRC &= ~((1<<DDC4) | (1<<DDC5));
 
   // Enable pullups
   PORTC |= (1<<DDC4) | (1<<DDC5);
@@ -70,7 +70,8 @@ void i2c_master_init(void)
   // Rewritten:
   // TWBR = ((F_CPU / SCL_frequency) - 16) / (2*PrescalerValue)
   //
-  // Set SCL bit rate 100KHz
+  // Use prescaler 1 and set SCL bit rate to 100 kHz.
+  TWSR &= ~((1<<TWPS1) | (1<<TWPS0));
   TWBR = ((F_CPU / 100000) - 16) / (2 * 1);
 }
 
@@ -133,7 +134,10 @@ void i2c_read(const uint8_t dev_address, uint8_t *p, const uint8_t len)
   // Read the data
   for(uint8_t i=0; i<len; ++i)
   {
+    // ACK every byte except the last one, which must be NACKed.
     TWCR = (1<<TWEN) | (1<<TWINT);
+    if (i + 1 < len)
+      TWCR |= (1<<TWEA);
     loop_until_bit_is_set(TWCR, TWINT);
     p[i] = TWDR;
   }
