@@ -12,8 +12,10 @@ int main(void) {
   bmp280.reset();
 
   while(1) {
-    uint8_t myId = bmp280.getId();
+    //uint8_t myId = bmp280.getId();
 
+    //int press = bmp280.getPress();
 
+    //Serial.println(press, HEX);
   }
 }
