@@ -11,11 +11,16 @@ int main(void) {
 
   bmp280.reset();
 
+  uint8_t myId = bmp280.getId();
+  Serial.println(myId, HEX);
+  bmp280.config();
+
   while(1) {
-    //uint8_t myId = bmp280.getId();
+    //uint32_t newPress = bmp280.getPress();
+    //uint32_t newTemp = bmp280.getTemp();
+    bmp280.getCalibration();
 
-    //int press = bmp280.getPress();
-
-    //Serial.println(press, HEX);
+    //Serial.println(newTemp);
+    
   }
 }
