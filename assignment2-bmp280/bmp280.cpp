@@ -112,3 +112,25 @@ int Bmp280::convertTemp(uint32_t adc_T) {
 
   return (t_fine * 5 + 128) >> 8;
 }
+
+float Bmp280::convertPress(uint32_t adc_p) {
+  double var1, var2;
+
+  var1 = ((double)t_fine / 2.0) - 64000.0;
+  var2 = var1 * var1 * ((double)dig_P6) / 32768.0;
+  var2 = var2 + var1 * ((double)dig_P5) * 2.0;
+  var2 = (var2 / 4.0) + (((double)dig_P4) * 65536.0);
+  var1 = (((double)dig_P3) * var1 * var1 / 524288.0 +
+          ((double)dig_P2) * var1) / 524288.0;
+  var1 = (1.0 + var1 / 32768.0) * ((double)dig_P1);
+
+  if (var1 == 0.0) return 0.0f;  // avoid divide-by-zero
+
+  p_fine = 1048576.0 - (double)adc_p;
+  p_fine = (p_fine - (var2 / 4096.0)) * 6250.0 / var1;
+  var1 = ((double)dig_P9) * p_fine * p_fine / 2147483648.0;
+  var2 = p_fine * ((double)dig_P8) / 32768.0;
+  p_fine = p_fine + (var1 + var2 + ((double)dig_P7)) / 16.0;
+
+  return p_fine;
+}

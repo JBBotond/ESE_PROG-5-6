@@ -14,13 +14,25 @@ int main(void) {
   uint8_t myId = bmp280.getId();
   Serial.println(myId, HEX);
   bmp280.config();
+  bmp280.getCalibration();
+
+
 
   while(1) {
     //uint32_t newPress = bmp280.getPress();
-    //uint32_t newTemp = bmp280.getTemp();
-    bmp280.getCalibration();
+    uint32_t rawTemp = bmp280.getTemp();
+    float temp = bmp280.convertTemp(rawTemp);
+    temp /= 100;
+    
+    Serial.print("Temperature in C: ");
+    Serial.println(temp);
 
-    //Serial.println(newTemp);
+    uint32_t rawPress = bmp280.getPress();
+    float press = bmp280.convertPress(rawPress);
+    press /= 100;
+
+    Serial.print("Pressure in hPa: ");
+    Serial.println(press);
     
   }
 }

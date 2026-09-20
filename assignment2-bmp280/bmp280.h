@@ -8,7 +8,7 @@ class Bmp280 {
     // must be applied separately to convert this to pressure in Pa.
     uint32_t getPress();
     uint32_t getTemp();
-    int convertPress();
+    float convertPress(uint32_t adc_p);
     int convertTemp(uint32_t adc_t);
     void config();
     void getCalibration();
