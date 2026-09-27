@@ -32,7 +32,7 @@
 #ifndef I2C_H
 #define I2C_H
 
-#include <stdint.h>
+#include <avr/io.h>
 
 // -----------------------------------------------------------------------------
 // Type definitions
