@@ -11,11 +11,12 @@
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:484:17:ScanIsWhiteSpace	24	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:494:17:ScanIgnoreWhiteSpace	24	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:509:16:ConvertRadixNumToString	64	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:657:16:ConvertFloatRadixNumToString	112	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:764:13:StrFormatExaminedi	16	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:786:13:StrFormatExaminexX	16	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:808:13:StrFormatExamineobpu	16	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:829:16:ConvertPrecisionWidthToLength	24	static
-/home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:862:5:StrFormatPrintf	144	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:862:5:StrFormatPrintf	152	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:1114:16:StrFormatScanIsFormatStarting	24	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:1133:16:StrFormatScanGetBase	16	static
 /home/boti/sdks/mcuxsdk_official/mcuxsdk/components/str/fsl_str.c:1156:16:StrFormatScanCheckSymbol	24	static
