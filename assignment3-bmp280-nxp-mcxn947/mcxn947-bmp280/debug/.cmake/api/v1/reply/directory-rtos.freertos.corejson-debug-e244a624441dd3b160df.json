@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rtos/freertos/corejson",
+		"source" : "/home/boti/sdks/mcuxsdk_official/mcuxsdk/rtos/freertos/corejson"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/flexcomm/i2c",
+		"source" : "/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/flexcomm/i2c"
+	}
+}

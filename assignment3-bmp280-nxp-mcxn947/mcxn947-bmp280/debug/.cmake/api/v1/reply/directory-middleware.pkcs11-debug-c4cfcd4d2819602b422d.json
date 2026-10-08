@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "middleware/pkcs11",
+		"source" : "/home/boti/sdks/mcuxsdk_official/mcuxsdk/middleware/pkcs11"
+	}
+}

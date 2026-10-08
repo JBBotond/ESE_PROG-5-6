@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "middleware/audio_voice/components/ssrc",
+		"source" : "/home/boti/sdks/mcuxsdk_official/mcuxsdk/middleware/audio_voice/components/ssrc"
+	}
+}

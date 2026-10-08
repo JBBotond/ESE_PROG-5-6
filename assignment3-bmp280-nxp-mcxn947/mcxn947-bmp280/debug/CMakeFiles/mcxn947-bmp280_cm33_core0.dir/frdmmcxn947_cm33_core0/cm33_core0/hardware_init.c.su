@@ -1,0 +1,3 @@
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/gpio/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/frdmmcxn947_cm33_core0/cm33_core0/hardware_init.c:15:6:BOARD_InitHardware	8	static
