@@ -1,0 +1,8 @@
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/bus.hpp:9:7:constexpr bmp280::Bus::Bus()	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/bus.hpp:11:13:bmp280::Bus::~Bus()	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/bus.hpp:11:13:virtual bmp280::Bus::~Bus()	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/NxpI2cBus.cpp:8:1:bmp280::platform::NxpI2cBus::NxpI2cBus(uint8_t)	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/NxpI2cBus.cpp:10:6:virtual bool bmp280::platform::NxpI2cBus::read(uint8_t, uint8_t*, int)	32	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/NxpI2cBus.cpp:25:6:virtual bool bmp280::platform::NxpI2cBus::write(uint8_t, const uint8_t*, int)	40	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/NxpI2cBus.hpp:13:7:bmp280::platform::NxpI2cBus::~NxpI2cBus()	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/NxpI2cBus.hpp:13:7:virtual bmp280::platform::NxpI2cBus::~NxpI2cBus()	16	static

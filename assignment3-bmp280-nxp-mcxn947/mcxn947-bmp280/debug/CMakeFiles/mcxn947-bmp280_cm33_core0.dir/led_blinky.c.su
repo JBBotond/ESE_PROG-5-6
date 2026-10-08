@@ -1,0 +1,10 @@
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/gpio/fsl_gpio.h:404:20:GPIO_PortToggle	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:763:24:TSI_GetStatusFlags	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:799:20:TSI_EnableModule	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:846:20:TSI_EnableHardwareTriggerScan	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:866:20:TSI_StartSoftwareTrigger	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:879:20:TSI_SetSelfCapMeasuredChannel	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:927:24:TSI_GetCounter	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.c:33:13:TouchPad_Init	80	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.c:50:13:TouchPad_IsTouched	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.c:70:5:main	16	static

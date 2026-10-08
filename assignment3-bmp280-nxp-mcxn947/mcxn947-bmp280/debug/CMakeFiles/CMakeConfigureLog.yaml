@@ -1,0 +1,2123 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/python.cmake:28 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/basic_settings.cmake:37 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:9 (include)"
+      - "CMakeLists.txt:10 (include)"
+    mode: "program"
+    variable: "Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/python"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/python"
+      - "/opt/st/stm32cubeclt_1.22.0/python"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/python"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/python"
+      - "/home/boti/.local/bin/python"
+      - "/usr/local/bin/python"
+    found: "/usr/bin/python"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/ruby.cmake:9 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/basic_settings.cmake:38 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:9 (include)"
+      - "CMakeLists.txt:10 (include)"
+    mode: "program"
+    variable: "RUBY_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ruby"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/ruby"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/ruby"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/ruby"
+      - "/home/boti/.local/bin/ruby"
+      - "/usr/local/bin/ruby"
+      - "/usr/bin/ruby"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/uname"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/uname"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/uname"
+      - "/home/boti/.local/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 7.2.8-200.fc44.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/ninja-build"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/ninja"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/samu"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/ninja-build"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/ninja"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/ninja-build"
+      - "/opt/st/stm32cubeclt_1.22.0/ninja"
+      - "/opt/st/stm32cubeclt_1.22.0/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/ninja-build"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/ninja"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/ninja-build"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/ninja"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/ninja-build"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/ninja"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/ninja-build"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/ninja"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/samu"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/ninja-build"
+    found: "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/debug/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-dlltool"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-dlltool"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-dlltool"
+      - "/home/boti/.local/bin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/dlltool"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/dlltool"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/dlltool"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/dlltool"
+      - "/home/boti/.local/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-tapi"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-tapi"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-tapi"
+      - "/home/boti/.local/bin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/tapi"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/tapi"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/tapi"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/tapi"
+      - "/home/boti/.local/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/debug/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar-"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/mcux.cmake:25 (__project)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/boti/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/extensions.cmake:190 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/CMakeLists.txt:95 (find_arm_gdb)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/CMakeLists.txt:149 (create_runners_yaml)"
+    mode: "program"
+    variable: "CMAKE_GDB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb-py"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb-py"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/extensions.cmake:202 (find_program)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/CMakeLists.txt:95 (find_arm_gdb)"
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/flash/CMakeLists.txt:149 (create_runners_yaml)"
+    mode: "program"
+    variable: "CMAKE_GDB_NO_PY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb"
+    candidate_directories:
+      - "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/"
+    found: "/home/boti/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/reports/CMakeLists.txt:115 (find_program)"
+    mode: "program"
+    variable: "PUNCOVER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "puncover"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/puncover"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/puncover"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/puncover"
+      - "/home/boti/.local/bin/puncover"
+      - "/usr/local/bin/puncover"
+      - "/usr/bin/puncover"
+      - "/bin/puncover"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/boti/sdks/mcuxsdk_official/mcuxsdk/cmake/extension/reports/CMakeLists.txt:132 (find_program)"
+    mode: "program"
+    variable: "PAHOLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pahole"
+    candidate_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/"
+      - "/opt/st/stm32cubeclt_1.22.0/"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/"
+      - "/home/boti/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64/pahole"
+      - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/CMake/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/Make/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin/pahole"
+      - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin/pahole"
+      - "/home/boti/.local/bin/pahole"
+      - "/usr/local/bin/pahole"
+    found: "/usr/bin/pahole"
+    search_context:
+      ENV{PATH}:
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/home/boti/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/opt/st/stm32cubeclt_1.22.0"
+        - "/opt/st/stm32cubeclt_1.22.0/STM32CubeProgrammer/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/STLink-gdb-server/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/CMake/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Make/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/Ninja/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/st-arm-clang/bin"
+        - "/opt/st/stm32cubeclt_1.22.0/GNU-tools-for-STM32/bin"
+        - "/home/boti/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+...

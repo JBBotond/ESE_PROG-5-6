@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "devices/MCX/MCXN/MCXN947/drivers",
+		"source" : "/home/boti/sdks/mcuxsdk_official/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers"
+	}
+}

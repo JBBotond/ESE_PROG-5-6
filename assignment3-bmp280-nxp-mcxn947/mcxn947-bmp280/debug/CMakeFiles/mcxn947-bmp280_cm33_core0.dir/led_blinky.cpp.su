@@ -1,0 +1,8 @@
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/port/fsl_port.h:360:20:void PORT_SetPinConfig(PORT_Type*, uint32_t, const port_pin_config_t*)	32	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:799:20:void TSI_EnableModule(TSI_Type*, bool)	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:846:20:void TSI_EnableHardwareTriggerScan(TSI_Type*, bool)	16	static
+/home/boti/sdks/mcuxsdk_official/mcuxsdk/drivers/tsi/tsi_v6/fsl_tsi_v6.h:879:20:void TSI_SetSelfCapMeasuredChannel(TSI_Type*, uint8_t)	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky/bmp280.hpp:20:14:bmp280::Bmp280::Bmp280(bmp280::Bus&)	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.cpp:33:13:void DebugUart_InitPins()	16	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.cpp:52:13:void TouchPad_Init()	80	static
+/run/media/boti/B6AA386AAA38296F/Users/janos/Han-p5/Prog-5-6-git/assignment3-bmp280-nxp-mcxn947/mcxn947-bmp280/led_blinky.cpp:69:5:int main()	64	static
