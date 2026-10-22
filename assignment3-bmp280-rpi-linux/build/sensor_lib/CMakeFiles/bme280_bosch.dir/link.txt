@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbme280_bosch.a CMakeFiles/bme280_bosch.dir/third_party/bme280/bme280.c.o
+/usr/bin/ranlib libbme280_bosch.a
