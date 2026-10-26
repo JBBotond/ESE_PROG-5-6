@@ -1,0 +1,12 @@
+/home/pizero/mqtt_station/build/CMakeFiles/station.dir
+/home/pizero/mqtt_station/build/CMakeFiles/station_main.dir
+/home/pizero/mqtt_station/build/CMakeFiles/edit_cache.dir
+/home/pizero/mqtt_station/build/CMakeFiles/rebuild_cache.dir
+/home/pizero/mqtt_station/build/rpi_platform/CMakeFiles/rpi_platform.dir
+/home/pizero/mqtt_station/build/rpi_platform/CMakeFiles/rpi_smoke_test.dir
+/home/pizero/mqtt_station/build/rpi_platform/CMakeFiles/edit_cache.dir
+/home/pizero/mqtt_station/build/rpi_platform/CMakeFiles/rebuild_cache.dir
+/home/pizero/mqtt_station/build/sensor_lib/CMakeFiles/bme280_bosch.dir
+/home/pizero/mqtt_station/build/sensor_lib/CMakeFiles/bme280.dir
+/home/pizero/mqtt_station/build/sensor_lib/CMakeFiles/edit_cache.dir
+/home/pizero/mqtt_station/build/sensor_lib/CMakeFiles/rebuild_cache.dir

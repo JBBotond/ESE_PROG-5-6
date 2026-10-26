@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/rpi_smoke_test.dir/link.d CMakeFiles/rpi_smoke_test.dir/examples/rpi_smoke_test.cpp.o -o rpi_smoke_test  librpi_platform.a ../sensor_lib/libbme280.a ../sensor_lib/libbme280_bosch.a

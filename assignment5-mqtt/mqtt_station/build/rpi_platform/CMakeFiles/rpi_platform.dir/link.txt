@@ -1,0 +1,2 @@
+/usr/bin/ar qc librpi_platform.a CMakeFiles/rpi_platform.dir/src/LinuxI2cBus.cpp.o
+/usr/bin/ranlib librpi_platform.a
