@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstation.a CMakeFiles/station.dir/src/Sampler.cpp.o CMakeFiles/station.dir/src/MqttPublisher.cpp.o
+/usr/bin/ranlib libstation.a
