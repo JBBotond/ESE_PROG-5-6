@@ -13,3 +13,8 @@ How to build:
     - Arduino project build under Arduino IDE
     - NXP project builds under MCUxpresso extension under VSCode
     - rpi project builds with CMake
+
+Expected driver outputs:
+    sensor ready at 0x76
+    T =  22.49 C
+    P =  102441.0 Pa
